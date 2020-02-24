@@ -1363,7 +1363,8 @@
           
             <a class="prev" rel="prev" href="/archives/2019/">
               <section class="post prev" >
-                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一頁&nbsp;
+                <!-- <- __('post.prev_page')  -->
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;prev&nbsp;
               </section>
             </a>
           
@@ -1372,8 +1373,9 @@
           </p>
           
             <a class="next" rel="next" href="/archives/2019/page/3/">
+              <!-- <- __('post.next_page')  -->
               <section class="post next">
-                &nbsp;下一頁&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
+                &nbsp;next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
               </section>
             </a>
           
@@ -1843,9 +1845,9 @@
     <!-- <- __('footer.use')  -->
     <!-- a href = "<- theme.info.docs " -->
     <span>Copyright. </span>
-    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename"></a>
+    <a href="https://xaoxuu.com/wiki/material-x/" target="_blank" class="codename">Material-X</a>
     <!-- <- theme.info.name    -->
-    as theme
+    <!-- <- __('footer.theme')  -->
     
       <span id="busuanzi_container_site_pv">
         Total <span id="busuanzi_value_site_pv"></span> views
@@ -1854,7 +1856,7 @@
         You got <span id="busuanzi_value_site_uv"></span> visitors
       </span>
     
-    。
+    . 
   </div>
   
 </footer>
@@ -1977,15 +1979,15 @@
 <!-- 复制 -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-  let COPY_SUCCESS = "複製成功";
-  let COPY_FAILURE = "複製失敗";
+  let COPY_SUCCESS = "Copied";
+  let COPY_FAILURE = "Copy failed";
   /*页面载入完成后，创建复制按钮*/
   !function (e, t, a) {
     /* code */
     var initCopyCode = function(){
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '  <i class="fa fa-copy"></i><span>複製</span>';
+      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
