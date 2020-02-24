@@ -13,6 +13,8 @@
       
       <categories>
           
+          <category> Language </category>
+          
           <category> Python </category>
           
       </categories>
@@ -41,6 +43,8 @@
       
       
       <categories>
+          
+          <category> Language </category>
           
           <category> Python </category>
           
@@ -72,6 +76,8 @@
       
       
       <categories>
+          
+          <category> Language </category>
           
           <category> Python </category>
           
@@ -137,6 +143,8 @@
       
       <categories>
           
+          <category> Language </category>
+          
           <category> Java </category>
           
       </categories>
@@ -161,6 +169,8 @@
       
       
       <categories>
+          
+          <category> AI </category>
           
           <category> Deep Learning </category>
           
@@ -188,6 +198,8 @@
       
       
       <categories>
+          
+          <category> Language </category>
           
           <category> Python </category>
           
@@ -222,6 +234,8 @@
       
       <categories>
           
+          <category> AI </category>
+          
           <category> Deep Learning </category>
           
       </categories>
@@ -250,6 +264,8 @@
       
       
       <categories>
+          
+          <category> AI </category>
           
           <category> Machine Learning </category>
           
@@ -282,6 +298,8 @@
       
       <categories>
           
+          <category> Web </category>
+          
           <category> Bootstrap4 </category>
           
       </categories>
@@ -313,6 +331,8 @@
       
       <categories>
           
+          <category> AI </category>
+          
           <category> Natural Language Processing </category>
           
       </categories>
@@ -339,6 +359,8 @@
       
       
       <categories>
+          
+          <category> AI </category>
           
           <category> Data Analysis </category>
           
@@ -371,6 +393,8 @@
       
       <categories>
           
+          <category> Web </category>
+          
           <category> Object Model </category>
           
       </categories>
@@ -402,6 +426,8 @@
       
       <categories>
           
+          <category> Language </category>
+          
           <category> Markup Language </category>
           
       </categories>
@@ -431,6 +457,8 @@
       
       <categories>
           
+          <category> Web </category>
+          
           <category> Objectoriented </category>
           
       </categories>
@@ -459,6 +487,8 @@
       <categories>
           
           <category> Web </category>
+          
+          <category> Flask </category>
           
       </categories>
       
@@ -490,6 +520,8 @@
       <categories>
           
           <category> AI </category>
+          
+          <category> Machine Learning </category>
           
       </categories>
       
@@ -582,7 +614,7 @@
       
       <categories>
           
-          <category> algorithm </category>
+          <category> Algorithm </category>
           
       </categories>
       
@@ -602,6 +634,8 @@
       <categories>
           
           <category> Web </category>
+          
+          <category> Django </category>
           
       </categories>
       
@@ -716,6 +750,8 @@
       
       
       <categories>
+          
+          <category> Language </category>
           
           <category> Python </category>
           
