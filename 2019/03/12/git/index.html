@@ -408,11 +408,11 @@
 <p>커밋하기</p>
 </blockquote>
 <p>  (1) git commit -m “index.html 수정”<br></p>
-<p>  [d27b]<br>  commit d27b8bb4d1f1949594592agbaskdjwkldsf<br><br>  Author: JH <a href="mailto:&#x77;&#108;&#103;&#x75;&#x72;&#x32;&#55;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;">&#x77;&#108;&#103;&#x75;&#x72;&#x32;&#55;&#x38;&#64;&#103;&#x6d;&#97;&#105;&#108;&#x2e;&#99;&#x6f;&#109;</a><br><br>  Date: Sun Mar 10 11:32:17 2019 +0900<br><br>       index.html 수정<br></p>
+<p>  [d27b]<br>  commit d27b8bb4d1f1949594592agbaskdjwkldsf<br><br>  Author: JH <a href="mailto:&#x77;&#108;&#103;&#x75;&#x72;&#x32;&#x37;&#56;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;">&#x77;&#108;&#103;&#x75;&#x72;&#x32;&#x37;&#56;&#x40;&#x67;&#x6d;&#97;&#105;&#108;&#46;&#x63;&#111;&#109;</a><br><br>  Date: Sun Mar 10 11:32:17 2019 +0900<br><br>       index.html 수정<br></p>
 <blockquote>
 <p>(2) git commit -m “main.html 추가”<br></p>
 </blockquote>
-<p>  [d482]<br>  commit d4828s8c89v9b999v0990cv9d9b900ds09d<br><br>  Author: JH <a href="mailto:&#x77;&#x6c;&#103;&#117;&#x72;&#50;&#x37;&#x38;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;">&#x77;&#x6c;&#103;&#117;&#x72;&#50;&#x37;&#x38;&#64;&#103;&#109;&#x61;&#x69;&#108;&#x2e;&#x63;&#111;&#109;</a><br><br>  Date: Sun Mar 10 11:33:34 2019 +09000<br><br>      main.html 추가</p>
+<p>  [d482]<br>  commit d4828s8c89v9b999v0990cv9d9b900ds09d<br><br>  Author: JH <a href="mailto:&#x77;&#108;&#103;&#117;&#x72;&#50;&#x37;&#56;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;">&#x77;&#108;&#103;&#117;&#x72;&#50;&#x37;&#56;&#64;&#x67;&#109;&#x61;&#105;&#108;&#x2e;&#99;&#x6f;&#x6d;</a><br><br>  Date: Sun Mar 10 11:33:34 2019 +09000<br><br>      main.html 추가</p>
 <ul>
 <li>d482 커밋의 부모 커밋은 d27b가 된다.</li>
 </ul>
@@ -1062,7 +1062,7 @@
         You got <span id="busuanzi_value_site_uv"></span> visitors
       </span>
     
-    . 
+    。
   </div>
   
 </footer>
@@ -1177,15 +1177,15 @@
 <!-- 复制 -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-  let COPY_SUCCESS = "Copied";
-  let COPY_FAILURE = "Copy failed";
+  let COPY_SUCCESS = "复制成功";
+  let COPY_FAILURE = "复制失败";
   /*页面载入完成后，创建复制按钮*/
   !function (e, t, a) {
     /* code */
     var initCopyCode = function(){
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
+      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
