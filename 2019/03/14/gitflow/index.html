@@ -483,7 +483,7 @@
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-02-25T00:15:26+09:00">
   <a class='notlink'>
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>2020년 2월 25일</p>
+    <p>Feb 25, 2020</p>
     <!-- __('post.updated') + ' ' +  -->
   </a>
 </div>
@@ -967,7 +967,7 @@
         You got <span id="busuanzi_value_site_uv"></span> visitors
       </span>
     
-    。
+    . 
   </div>
   
 </footer>
@@ -1082,15 +1082,15 @@
 <!-- 复制 -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-  let COPY_SUCCESS = "复制成功";
-  let COPY_FAILURE = "复制失败";
+  let COPY_SUCCESS = "Copied";
+  let COPY_FAILURE = "Copy failed";
   /*页面载入完成后，创建复制按钮*/
   !function (e, t, a) {
     /* code */
     var initCopyCode = function(){
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {

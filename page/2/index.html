@@ -1299,8 +1299,7 @@
           
             <a class="prev" rel="prev" href="/">
               <section class="post prev" >
-                <!-- <- __('post.prev_page')  -->
-                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;prev&nbsp;
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;Previous&nbsp;
               </section>
             </a>
           
@@ -1309,9 +1308,8 @@
           </p>
           
             <a class="next" rel="next" href="/page/3/">
-              <!-- <- __('post.next_page')  -->
               <section class="post next">
-                &nbsp;next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
+                &nbsp;Next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i>
               </section>
             </a>
           
@@ -1791,7 +1789,7 @@
         You got <span id="busuanzi_value_site_uv"></span> visitors
       </span>
     
-    。
+    . 
   </div>
   
 </footer>
@@ -1906,15 +1904,15 @@
 <!-- 复制 -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
-  let COPY_SUCCESS = "复制成功";
-  let COPY_FAILURE = "复制失败";
+  let COPY_SUCCESS = "Copied";
+  let COPY_FAILURE = "Copy failed";
   /*页面载入完成后，创建复制按钮*/
   !function (e, t, a) {
     /* code */
     var initCopyCode = function(){
       var copyHtml = '';
       copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '  <i class="fa fa-copy"></i><span>复制</span>';
+      copyHtml += '  <i class="fa fa-copy"></i><span>Copy</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
