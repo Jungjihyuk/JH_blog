@@ -380,60 +380,6 @@
 <h2 id="10828번-정답"><a href="#10828번-정답" class="headerlink" title="10828번(정답)"></a>10828번(정답)</h2><h3 id="스택"><a href="#스택" class="headerlink" title="스택"></a>스택</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">n = int(input())</span><br><span class="line">stack = []</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> x <span class="keyword">in</span> range(n):</span><br><span class="line">	order = input().split()</span><br><span class="line">	<span class="keyword">if</span> order[<span class="number">0</span>] == <span class="string">'push'</span>:</span><br><span class="line">		stack.append(int(order[<span class="number">1</span>]))</span><br><span class="line">	<span class="keyword">elif</span> order[<span class="number">0</span>] == <span class="string">'pop'</span>:</span><br><span class="line">		<span class="keyword">if</span> len(stack) == <span class="number">0</span>:</span><br><span class="line">			print(<span class="number">-1</span>)</span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			print(stack[<span class="number">-1</span>])</span><br><span class="line">			stack.pop()</span><br><span class="line">	<span class="keyword">elif</span> order[<span class="number">0</span>] == <span class="string">'empty'</span>:</span><br><span class="line">		<span class="keyword">if</span> len(stack) == <span class="number">0</span>:</span><br><span class="line">			print(<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			print(<span class="number">0</span>)</span><br><span class="line">	<span class="keyword">elif</span> order[<span class="number">0</span>] == <span class="string">'top'</span>:</span><br><span class="line">		<span class="keyword">if</span> len(stack) == <span class="number">0</span>:</span><br><span class="line">			print(<span class="number">-1</span>)</span><br><span class="line">		<span class="keyword">else</span>:</span><br><span class="line">			print(stack[<span class="number">-1</span>])</span><br></pre></td></tr></table></figure>
 
           
-            <br>
-            
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <section class='widget copyright'>
-  <div class='content pure'>
-    <blockquote>
-      
-        <p>
-          
-            这是文章页脚，可以放置版权说明以及打赏图片。<br>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
-          
-        </p>
-      
-        <p>
-          
-            
-          
-        </p>
-      
-        <p>
-          
-            本文永久链接是：<a href=http://jungjihyuk.github.io/2019/01/13/baekjoon-algorithm/>http://jungjihyuk.github.io/2019/01/13/baekjoon-algorithm/<a>
-          
-        </p>
-      
-    </blockquote>
-  </div>
-</section>
-
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
         </div>
         
           <br>

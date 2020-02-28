@@ -389,60 +389,6 @@
 <h1 id="Array"><a href="#Array" class="headerlink" title="Array"></a>Array</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Array_test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// int</span></span><br><span class="line">	<span class="keyword">int</span>[] array1 = <span class="keyword">new</span> <span class="keyword">int</span>[<span class="number">8</span>];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;array1.length; i++) &#123;</span><br><span class="line">		System.out.print(array1[i]+<span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	System.out.println(<span class="string">"\n-----------------------"</span>);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	<span class="comment">//string</span></span><br><span class="line">	String[] array2 = <span class="keyword">new</span> String[] &#123;<span class="string">"a"</span>,<span class="string">"b"</span>&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; array2.length; i++) &#123;</span><br><span class="line">		System.out.print(array2[i]+<span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	System.out.println(<span class="string">"\n-----------------------"</span>);</span><br><span class="line">	<span class="comment">//배열을 생성해 할당하면 배열의 주소가 들어간다</span></span><br><span class="line">	String[] array3 = <span class="keyword">new</span> String[<span class="number">5</span>];</span><br><span class="line">	array3[<span class="number">0</span>] = <span class="string">"Jung"</span>;</span><br><span class="line">	array3[<span class="number">1</span>] = <span class="string">"jihyuk"</span>;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">2</span>; j&lt;array3.length;j++) &#123;</span><br><span class="line">		array3[j] = Integer.toString(j);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i&lt;array3.length; i++) &#123;</span><br><span class="line">		System.out.print(array3[i] + <span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	System.out.println(<span class="string">"\n-----------------------"</span>);</span><br><span class="line">	<span class="comment">//char</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">//char array4[] = new char[];</span></span><br><span class="line">	<span class="keyword">char</span> array4[] = <span class="keyword">new</span> <span class="keyword">char</span>[] &#123;<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>&#125;;</span><br><span class="line">	<span class="keyword">char</span>[] array5 = <span class="keyword">new</span> <span class="keyword">char</span>[] &#123;<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'d'</span>,<span class="string">'e'</span>&#125;;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> n=<span class="number">0</span>; n&lt;array4.length; n++) &#123;</span><br><span class="line">		System.out.print(array4[n]+<span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	System.out.println(<span class="string">" "</span>);</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> n=<span class="number">0</span>; n&lt;array5.length; n++) &#123;</span><br><span class="line">		System.out.print(array5[n]+<span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line">	System.out.println(<span class="string">" "</span>);</span><br><span class="line">	<span class="keyword">char</span> array6[] = <span class="keyword">new</span> <span class="keyword">char</span>[<span class="number">5</span>];</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	String s1 = <span class="string">"abcdef"</span>;</span><br><span class="line">	<span class="keyword">char</span>[] array7 = s1.toCharArray();</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> m = <span class="number">0</span>; m&lt;array7.length; m++) &#123;</span><br><span class="line">		System.out.print(array7[m]+<span class="string">" "</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	String s2 = <span class="string">""</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">0</span>; k&lt;array7.length; k++) &#123;</span><br><span class="line">		s2+=Character.toString(array7[k]);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	System.out.println(<span class="string">"\n"</span>+s2);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">char</span> [] array8 = &#123;<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>&#125;;</span><br><span class="line">	String s3 = String.valueOf(array8);</span><br><span class="line">	System.out.println(s3);</span><br><span class="line"></span><br><span class="line">	String s4 = <span class="keyword">new</span> String(array8,<span class="number">0</span>,<span class="number">3</span>);</span><br><span class="line">	System.out.println(s4);</span><br><span class="line"></span><br><span class="line">	<span class="comment">//byte 	</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
           
-            <br>
-            
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  <section class='widget copyright'>
-  <div class='content pure'>
-    <blockquote>
-      
-        <p>
-          
-            这是文章页脚，可以放置版权说明以及打赏图片。<br>博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
-          
-        </p>
-      
-        <p>
-          
-            
-          
-        </p>
-      
-        <p>
-          
-            本文永久链接是：<a href=http://jungjihyuk.github.io/2019/11/10/java/>http://jungjihyuk.github.io/2019/11/10/java/<a>
-          
-        </p>
-      
-    </blockquote>
-  </div>
-</section>
-
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            
-          
         </div>
         
           <br>
