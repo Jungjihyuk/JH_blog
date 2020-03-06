@@ -199,13 +199,6 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/tags/%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590-%25EB%25B3%25B4%25EA%25B8%25B0/</loc>
-        <lastmod>2020-02-27T16:48:27.221Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jungjihyuk.github.io/tags/Servlet/</loc>
         <lastmod>2020-02-27T16:48:27.221Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -214,6 +207,13 @@
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/Jsp/</loc>
+        <lastmod>2020-02-27T16:48:27.221Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590-%25EB%25B3%25B4%25EA%25B8%25B0/</loc>
         <lastmod>2020-02-27T16:48:27.221Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -409,13 +409,6 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/tags/algorithm/</loc>
-        <lastmod>2020-02-27T16:46:55.828Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jungjihyuk.github.io/tags/database/</loc>
         <lastmod>2020-02-27T16:46:55.828Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -431,6 +424,13 @@
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/CodeSignal/</loc>
+        <lastmod>2020-02-27T16:46:55.828Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/algorithm/</loc>
         <lastmod>2020-02-27T16:46:55.828Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
