@@ -4,42 +4,42 @@
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/Data-Analysis/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
+        <lastmod>2020-03-14T10:37:26.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/tags/Deep-Learning/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/tags/Machine-Learning/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/tags/Python/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
+        <loc>http://jungjihyuk.github.io/tags/Pandas/</loc>
+        <lastmod>2020-03-14T10:37:26.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/Lecture/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
+        <lastmod>2020-03-14T10:37:26.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/AI/</loc>
-        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
+        <lastmod>2020-03-14T10:37:26.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/Machine-learning/</loc>
+        <lastmod>2020-03-14T10:37:21.902Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/Python/</loc>
+        <lastmod>2020-03-14T10:37:01.146Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -47,20 +47,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/tags/DeepLearning/</loc>
         <lastmod>2020-03-14T10:24:27.277Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/tags/Machine-learning/</loc>
-        <lastmod>2020-03-14T10:23:18.053Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/tags/Pandas/</loc>
-        <lastmod>2020-03-14T10:20:35.862Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -87,6 +73,13 @@
     </url>
 
     <url>
+        <loc>http://jungjihyuk.github.io/tags/%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590-%25EB%25B3%25B4%25EA%25B8%25B0/</loc>
+        <lastmod>2020-03-14T09:33:11.580Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jungjihyuk.github.io/tags/Servlet/</loc>
         <lastmod>2020-03-14T09:33:11.580Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -95,13 +88,6 @@
 
     <url>
         <loc>http://jungjihyuk.github.io/tags/Jsp/</loc>
-        <lastmod>2020-03-14T09:33:11.580Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/tags/%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590-%25EB%25B3%25B4%25EA%25B8%25B0/</loc>
         <lastmod>2020-03-14T09:33:11.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -313,6 +299,20 @@
     <url>
         <loc>http://jungjihyuk.github.io/tags/IT/</loc>
         <lastmod>2020-02-27T16:48:15.341Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/Deep-Learning/</loc>
+        <lastmod>2020-02-27T16:48:09.421Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/tags/Machine-Learning/</loc>
+        <lastmod>2020-02-27T16:48:09.421Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
