@@ -8,6 +8,22 @@
     </url>
 
     <url>
+        <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_machineLearning/</loc>
+        <lastmod>2020-03-14T10:46:03.547Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_deeplearning/</loc>
+        <lastmod>2020-03-14T10:44:39.934Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_pandas/</loc>
         <lastmod>2020-03-14T10:37:26.448Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -16,24 +32,8 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_machineLearning/</loc>
-        <lastmod>2020-03-14T10:37:21.902Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_python/</loc>
         <lastmod>2020-03-14T10:37:01.146Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/2019/04/29/AILecture_deeplearning/</loc>
-        <lastmod>2020-03-14T10:24:27.277Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
