@@ -8,14 +8,70 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/AI/Data-Analysis/</loc>
-        <lastmod>2020-02-27T16:55:41.109Z</lastmod>
+        <loc>http://jungjihyuk.github.io/categories/AI/Python/</loc>
+        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/</loc>
+        <lastmod>2020-03-14T10:24:31.592Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/DeepLearning/</loc>
+        <lastmod>2020-03-14T10:24:27.277Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Machine-learning/</loc>
+        <lastmod>2020-03-14T10:23:18.053Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Pandas/</loc>
+        <lastmod>2020-03-14T10:20:35.862Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Numpy/</loc>
+        <lastmod>2020-03-14T10:18:09.861Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/Web/Django/</loc>
+        <lastmod>2020-03-14T09:36:36.626Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/Web/</loc>
+        <lastmod>2020-03-14T09:36:36.626Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/JSP-Servlet/</loc>
+        <lastmod>2020-03-14T09:33:11.580Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Data-Analysis/</loc>
         <lastmod>2020-02-27T16:55:41.109Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -64,13 +120,6 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/Web/</loc>
-        <lastmod>2020-02-27T16:48:47.640Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jungjihyuk.github.io/categories/Web/Objectoriented/</loc>
         <lastmod>2020-02-27T16:48:40.143Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -80,13 +129,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/Natural-Language-Processing/</loc>
         <lastmod>2020-02-27T16:48:35.440Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/JSP-Servlet/</loc>
-        <lastmod>2020-02-27T16:48:27.221Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -122,13 +164,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/categories/Web/Flask/</loc>
         <lastmod>2020-02-27T16:47:46.248Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/Web/Django/</loc>
-        <lastmod>2020-02-27T16:47:31.849Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
