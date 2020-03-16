@@ -8,6 +8,20 @@
     </url>
     
     <url>
+        <loc>http://jungjihyuk.github.io/tags/</loc>
+        <lastmod>2020-03-16T07:20:00.337Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/</loc>
+        <lastmod>2020-03-16T07:19:51.576Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>http://jungjihyuk.github.io/projects/</loc>
         <lastmod>2020-02-23T07:16:00.620Z</lastmod>
         <changefreq>weekly</changefreq>
