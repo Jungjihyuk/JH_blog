@@ -95,7 +95,7 @@
         </li>
       
         <li>
-          <a class="nav home" href="/projects/"
+          <a class="nav home" href="/projects"
             
             
             id="projects">
@@ -104,7 +104,7 @@
         </li>
       
         <li>
-          <a class="nav home" href="/about/"
+          <a class="nav home" href="/about"
             
               rel="nofollow"
             
@@ -148,7 +148,7 @@
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/categories/"
+								<a class="nav flat-box" href="/categories"
                   
                     rel="nofollow"
                   
@@ -161,7 +161,7 @@
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/tags/"
+								<a class="nav flat-box" href="/tags"
                   
                     rel="nofollow"
                   
@@ -174,7 +174,7 @@
 							</li>
       			
   						<li>
-								<a class="nav flat-box" href="/archives/"
+								<a class="nav flat-box" href="/archives"
                   
                     rel="nofollow"
                   
@@ -233,7 +233,7 @@
             </li>
           
             <li>
-							<a class="nav flat-box" href="/archives/"
+							<a class="nav flat-box" href="/archives"
                 
                   rel="nofollow"
                 
@@ -244,7 +244,7 @@
             </li>
           
             <li>
-							<a class="nav flat-box" href="/projects/"
+							<a class="nav flat-box" href="/projects"
                 
                 
                 id="projects">
@@ -264,7 +264,7 @@
             </li>
           
             <li>
-							<a class="nav flat-box" href="/about/"
+							<a class="nav flat-box" href="/about"
                 
                   rel="nofollow"
                 
@@ -1133,6 +1133,22 @@
        * 一般图片标签内会有个属性名来存放图片的真实地址，比如 data-original,
        * 那么此处将原本的属性名src替换为对应属性名data-original,
        * 修改如下
+       */
+       if (LAZY_LOAD_IMAGE) {
+         $(element).attr("href", $(this).attr("data-original"));
+       }
+      $(this).wrap(element);
+  });
+</script>
+
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+</body>
+</html>
+
        */
        if (LAZY_LOAD_IMAGE) {
          $(element).attr("href", $(this).attr("data-original"));
