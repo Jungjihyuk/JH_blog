@@ -418,6 +418,24 @@
 <p><code>rindex는 가장 오른쪽에 있는 index값을 출력 하는 메소드!</code></p>
 <br>
 
+<h1 id="rotateImage"><a href="#rotateImage" class="headerlink" title="rotateImage"></a>rotateImage</h1><blockquote>
+<p>2차원 배열을 입력값으로 받으면 오른쪽으로 90도 회전한 2차원 배열(행렬)을 반환 하는 함수</p>
+</blockquote>
+<br>
+
+<h2 id="Example-2"><a href="#Example-2" class="headerlink" title="Example"></a>Example</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">a &#x3D; [[1,2,3],</span><br><span class="line">     [4,5,6],</span><br><span class="line">     [7,8,9]]</span><br><span class="line">output &#x3D; [[7,4,1],</span><br><span class="line">          [8,5,2],</span><br><span class="line">          [9,6,3]]</span><br><span class="line"></span><br><span class="line">a &#x3D; [[10,9,6,3,7],</span><br><span class="line">     [6,10,2,9,7],</span><br><span class="line">     [7,6,3,8,2],</span><br><span class="line">     [8,9,7,9,9],</span><br><span class="line">     [6,8,6,8,2]]</span><br><span class="line">output &#x3D; [[6,8,7,6,10],</span><br><span class="line">          [8,9,6,10,9],</span><br><span class="line">          [6,7,3,2,6],</span><br><span class="line">          [8,9,8,9,3],</span><br><span class="line">          [2,9,2,7,7]]</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h2 id="1번-with-python"><a href="#1번-with-python" class="headerlink" title="[1번 with python]"></a>[1번 with python]</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">rotateImage</span><span class="params">(a)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> list(np.array(a).T[:,::<span class="number">-1</span>])</span><br></pre></td></tr></table></figure>
+
+<p><code>2차원 행렬을 오른쪽으로 90도 회전 하는 것은 행렬을 전치한 후 뒤집으면된다.</code></p>
+<br>
+
+<h2 id="2번-with-python"><a href="#2번-with-python" class="headerlink" title="[2번 with python]"></a>[2번 with python]</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rotateImage = <span class="keyword">lambda</span> a: zip(*a[::<span class="number">-1</span>])</span><br></pre></td></tr></table></figure>
+
+<p><code>2차원 행렬을 위아래로 뒤집은 후 열을 행으로 바꾸면 오른쪽으로 90도 회전한 것과 같아진다.</code></p>
+
           
         </div>
         
@@ -429,10 +447,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-16T21:05:52+09:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-17T17:45:50+09:00">
   <a class='notlink'>
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>Mar 16, 2020</p>
+    <p>Mar 17, 2020</p>
     <!-- __('post.updated') + ' ' +  -->
   </a>
 </div>
@@ -460,16 +478,16 @@
                         <span class="art-item-left">
                             <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;prev</h6>
                             <h4>
-                                <a href="/2019/04/29/AILecture_numpy/" rel="prev" title="AI 이노베이션 스퀘어 수업(기본반) - numpy">
+                                <a href="/2019/04/29/AILecture_machineLearning/" rel="prev" title="AI 이노베이션 스퀘어 수업(기본반) - machine learning">
                                   
-                                      AI 이노베이션 스퀘어 수업(기본반) - numpy
+                                      AI 이노베이션 스퀘어 수업(기본반) - machine learning
                                   
                                 </a>
                             </h4>
                             
                                 
                                 <h6 class="tags">
-                                    <a class="tag" href="/tags/AI/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> AI</a> <a class="tag" href="/tags/Lecture/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Lecture</a> <a class="tag" href="/tags/Numpy/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Numpy</a>
+                                    <a class="tag" href="/tags/AI/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> AI</a> <a class="tag" href="/tags/Lecture/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Lecture</a> <a class="tag" href="/tags/Machine-Learning/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Machine Learning</a>
                                 </h6>
                             
                         </span>
@@ -480,16 +498,16 @@
                         <span class="art-item-right" aria-hidden="true">
                             <h6>next&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
                             <h4>
-                                <a href="/2019/04/29/AILecture_pandas/" rel="prev" title="AI 이노베이션 스퀘어 수업(기본반) - pandas">
+                                <a href="/2019/04/29/AILecture_numpy/" rel="prev" title="AI 이노베이션 스퀘어 수업(기본반) - numpy">
                                     
-                                        AI 이노베이션 스퀘어 수업(기본반) - pandas
+                                        AI 이노베이션 스퀘어 수업(기본반) - numpy
                                     
                                 </a>
                             </h4>
                             
                                 
                                 <h6 class="tags">
-                                    <a class="tag" href="/tags/AI/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> AI</a> <a class="tag" href="/tags/Lecture/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Lecture</a> <a class="tag" href="/tags/Pandas/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Pandas</a> <a class="tag" href="/tags/Data-Analysis/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Data Analysis</a>
+                                    <a class="tag" href="/tags/AI/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> AI</a> <a class="tag" href="/tags/Lecture/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Lecture</a> <a class="tag" href="/tags/Numpy/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Numpy</a>
                                 </h6>
                             
                         </span>
@@ -641,7 +659,7 @@
 </header>
 
     <div class='content pure'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Example"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1번-with-Python"><span class="toc-text">[1번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2번-with-Python"><span class="toc-text">[2번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Example-1"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1번-with-Python-1"><span class="toc-text">[1번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2번-with-Python-1"><span class="toc-text">[2번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3번-with-Python"><span class="toc-text">[3번] with Python</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Example"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1번-with-Python"><span class="toc-text">[1번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2번-with-Python"><span class="toc-text">[2번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Example-1"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1번-with-Python-1"><span class="toc-text">[1번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2번-with-Python-1"><span class="toc-text">[2번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3번-with-Python"><span class="toc-text">[3번] with Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Example-2"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1번-with-python"><span class="toc-text">[1번 with python]</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2번-with-python"><span class="toc-text">[2번 with python]</span></a></li></ol>
     </div>
   </section>
 
