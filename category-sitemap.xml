@@ -8,28 +8,49 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/Algorithm/Arrays/</loc>
-        <lastmod>2020-03-17T10:00:33.220Z</lastmod>
+        <loc>http://jungjihyuk.github.io/categories/Language/Python/</loc>
+        <lastmod>2020-03-20T12:57:35.382Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/Algorithm/</loc>
-        <lastmod>2020-03-17T10:00:33.220Z</lastmod>
+        <loc>http://jungjihyuk.github.io/categories/Language/</loc>
+        <lastmod>2020-03-20T12:57:35.382Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/AI/Machine-Learning/</loc>
-        <lastmod>2020-03-14T10:46:03.547Z</lastmod>
+        <loc>http://jungjihyuk.github.io/categories/AI/Python/</loc>
+        <lastmod>2020-03-18T08:42:25.522Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/</loc>
+        <lastmod>2020-03-18T08:42:25.522Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/Algorithm/Arrays/</loc>
+        <lastmod>2020-03-18T07:16:02.688Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/Algorithm/</loc>
+        <lastmod>2020-03-18T07:16:02.688Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Machine-Learning/</loc>
         <lastmod>2020-03-14T10:46:03.547Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -45,13 +66,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/Pandas/</loc>
         <lastmod>2020-03-14T10:37:26.448Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/AI/Python/</loc>
-        <lastmod>2020-03-14T10:37:01.146Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -99,22 +113,8 @@
     </url>
 
     <url>
-        <loc>http://jungjihyuk.github.io/categories/Language/</loc>
-        <lastmod>2020-02-27T16:49:10.122Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jungjihyuk.github.io/categories/English/</loc>
         <lastmod>2020-02-27T16:49:06.576Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/Language/Python/</loc>
-        <lastmod>2020-02-27T16:48:59.536Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
