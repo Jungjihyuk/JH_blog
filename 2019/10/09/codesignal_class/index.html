@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   
-  <title>CodeSignal Arcade 문제 풀이 | 지혁&#39;s Blog</title>
+  <title>CodeSignal Arcade 문제 풀이 [Class] | 지혁&#39;s Blog</title>
   
   
 
@@ -303,7 +303,7 @@
   
     <h1 class="title">
       <a href="/2019/10/09/codesignal_class/">
-        CodeSignal Arcade 문제 풀이
+        CodeSignal Arcade 문제 풀이 [Class]
       </a>
     </h1>
   
@@ -385,6 +385,23 @@
 
 <br>
 
+<h1 id="Sign"><a href="#Sign" class="headerlink" title="Sign"></a>Sign</h1><blockquote>
+<p>양수를 받으면 1를 return, 음수를 받으면 -1를 return 0을 받으면 0을 return 하는 classmethod를 구하라</p>
+</blockquote>
+<br>
+
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">x &#x3D; 32</span><br><span class="line">output &#x3D; 1</span><br><span class="line"></span><br><span class="line">x &#x3D; -32</span><br><span class="line">output &#x3D; -1</span><br><span class="line"></span><br><span class="line">x &#x3D; 0</span><br><span class="line">output &#x3D; 0</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h2 id="My-Answer"><a href="#My-Answer" class="headerlink" title="My Answer"></a>My Answer</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Functions</span><span class="params">(object)</span>:</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @classmethod</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sign</span><span class="params">(cls ,x)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> x &gt; <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">1</span></span><br><span class="line">        <span class="keyword">elif</span> x &lt; <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sign</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> Functions.sign(x)</span><br></pre></td></tr></table></figure>
+
+<br>
+
+<h2 id="Another-Answer"><a href="#Another-Answer" class="headerlink" title="Another Answer"></a>Another Answer</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Functions</span><span class="params">(object)</span>:</span></span><br><span class="line"></span><br><span class="line"><span class="meta">    @staticmethod</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">sign</span> <span class="params">(x)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span> <span class="keyword">if</span> x == <span class="number">0</span> <span class="keyword">else</span> x//abs(x)</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sign</span><span class="params">(x)</span>:</span></span><br><span class="line">    <span class="keyword">return</span> Functions.sign(x)</span><br></pre></td></tr></table></figure>
+
+<br>
+
           
         </div>
         
@@ -396,10 +413,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-20T21:57:35+09:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-25T22:09:33+09:00">
   <a class='notlink'>
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>Mar 20, 2020</p>
+    <p>Mar 25, 2020</p>
     <!-- __('post.updated') + ' ' +  -->
   </a>
 </div>
@@ -409,7 +426,7 @@
         
           
   
-  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/algorithm/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>algorithm</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%EC%BD%94%EB%94%A9%EC%97%B0%EC%8A%B5/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>코딩연습</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/python/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>python</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/CodeSignal/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>CodeSignal</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/class/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>class</p></a></div>
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/algorithm/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>algorithm</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/CodeSignal/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>CodeSignal</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%EC%BD%94%EB%94%A9%EC%97%B0%EC%8A%B5/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>코딩연습</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/python/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>python</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/class/" rel="nofollow"><i class="fas fa-tag" aria-hidden="true"></i><p>class</p></a></div>
 
 
         
@@ -456,7 +473,7 @@
                             
                                 
                                 <h6 class="tags">
-                                    <a class="tag" href="/tags/algorithm/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> algorithm</a> <a class="tag" href="/tags/%EC%BD%94%EB%94%A9%EC%97%B0%EC%8A%B5/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 코딩연습</a> <a class="tag" href="/tags/python/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> python</a> <a class="tag" href="/tags/database/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> database</a> <a class="tag" href="/tags/CodeSignal/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> CodeSignal</a>
+                                    <a class="tag" href="/tags/algorithm/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> algorithm</a> <a class="tag" href="/tags/CodeSignal/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> CodeSignal</a> <a class="tag" href="/tags/%EC%BD%94%EB%94%A9%EC%97%B0%EC%8A%B5/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 코딩연습</a> <a class="tag" href="/tags/python/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> python</a> <a class="tag" href="/tags/database/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> database</a>
                                 </h6>
                             
                         </span>
@@ -501,7 +518,7 @@
 
   <script>
     window.subData = {
-      title: 'CodeSignal Arcade 문제 풀이',
+      title: 'CodeSignal Arcade 문제 풀이 [Class]',
       tools: true
     }
   </script>
@@ -608,7 +625,7 @@
 </header>
 
     <div class='content pure'>
-      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Answer"><span class="toc-text">Answer</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Answer"><span class="toc-text">Answer</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Example"><span class="toc-text">Example</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#My-Answer"><span class="toc-text">My Answer</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Another-Answer"><span class="toc-text">Another Answer</span></a></li></ol>
     </div>
   </section>
 
