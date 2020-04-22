@@ -8,6 +8,20 @@
     </url>
 
     <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/Deep-Learning/</loc>
+        <lastmod>2020-04-22T16:37:58.078Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jungjihyuk.github.io/categories/AI/</loc>
+        <lastmod>2020-04-22T16:37:58.078Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jungjihyuk.github.io/categories/Language/Python/</loc>
         <lastmod>2020-03-25T13:09:33.760Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,13 +37,6 @@
 
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/Python/</loc>
-        <lastmod>2020-03-23T12:47:22.880Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/AI/</loc>
         <lastmod>2020-03-23T12:47:22.880Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -52,13 +59,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/categories/AI/Machine-Learning/</loc>
         <lastmod>2020-03-14T10:46:03.547Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/categories/AI/Deep-Learning/</loc>
-        <lastmod>2020-03-14T10:44:39.934Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

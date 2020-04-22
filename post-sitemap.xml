@@ -8,6 +8,14 @@
     </url>
 
     <url>
+        <loc>http://jungjihyuk.github.io/2019/10/06/tensorflow/</loc>
+        <lastmod>2020-04-22T16:37:58.078Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jungjihyuk.github.io/2019/10/09/codesignal_class/</loc>
         <lastmod>2020-03-25T13:09:33.760Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -98,14 +106,6 @@
     <url>
         <loc>http://jungjihyuk.github.io/2019/04/17/toeic/</loc>
         <lastmod>2020-02-27T16:49:06.576Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jungjihyuk.github.io/2019/10/06/tensorflow/</loc>
-        <lastmod>2020-02-27T16:49:03.243Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
